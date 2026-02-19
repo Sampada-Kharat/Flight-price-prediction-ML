@@ -9,14 +9,20 @@ A Machine Learning regression model is trained on historical flight data and dep
 
 The goal of this project is to demonstrate:
 •	End-to-end ML workflow
+
 •	Feature engineering & model training
+
 •	Model deployment using Streamlit
 
 Features
 •	Predict flight ticket price instantly
+
 •	Interactive web interface
+
 •	Multiple airline and city inputs
+
 •	Real-time ML predictions
+
 •	Deployed ML model integration
 
 Machine Learning Workflow
@@ -30,17 +36,26 @@ Machine Learning Workflow
 
  Models Used
 •	Linear Regression
+
 •	Random Forest Regressor
+
 •	Gradient Boosting Regressor
+
 •	Linear SVR
+
 Best-performing model saved using joblib.
 
 Tech Stack
 •	Python
+
 •	Pandas, NumPy
+
 •	Scikit-learn
+
 •	Matplotlib & Seaborn
+
 •	Streamlit
+
 •	Joblib
 
  How to Run Locally
@@ -52,13 +67,21 @@ streamlit run app.py
 
 Input Features
 •	Airline
+
 •	Source City
+
 •	Destination City
+
 •	Departure Time
+
 •	Arrival Time
+
 •	Number of Stops
+
 •	Days Left Before Departure
+
 •	Duration
+
 •	Flight Class
 
 Output
@@ -66,8 +89,11 @@ Predicted flight ticket price in INR (₹).
 
  Future Improvements
 •	Deploy on cloud (Render / AWS / HuggingFace Spaces)
+
 •	Add real-time flight API data
+
 •	Improve feature engineering
+
 •	Model explainability using SHAP
 ________________________________________
  Author
